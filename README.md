@@ -1,0 +1,2 @@
+# RabbitMqWorker
+RabbitMq Worker
