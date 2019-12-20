@@ -33,6 +33,7 @@ namespace RabbitMqWorker
                 setup.QueueName = options.QueueName;
                 setup.Username = options.Username;
                 setup.Password = options.Password;
+                setup.CreateIfNotExists = true;
             });
 
             services.AddHealthChecks()

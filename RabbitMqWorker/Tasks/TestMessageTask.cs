@@ -9,7 +9,6 @@ using System.Threading.Tasks;
 
 namespace RabbitMqWorker.Tasks
 {
-
     public class TestMessageTask : BackgroundService
     {
         private readonly IMessageQueue _queue;
